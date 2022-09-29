@@ -15,7 +15,7 @@ library(ggrepel)
 ###                 Import Data                 ###
 ###################################################
 rm(list=ls())
-setwd("C:/Users/conradm1/Desktop/2022 Tumwebaze et al Nature comm")
+setwd("2022 Tumwebaze et al Nature comm")
 
 data(World)
 uganda_adm2 <- read_sf("databases/uga_admbnda_ubos_20200824_shp/uga_admbnda_adm2_ubos_20200824.shp")
