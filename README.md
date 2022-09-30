@@ -10,6 +10,7 @@ Data Files:
 - artR_genes_wide.csv: contains data required to generate Figure 4 and perform genotype-phenotype associations for RSA data.
 - data_IC50_associations.csv: contains data required to populate Table 4 and perform genotype-phenotype associations for IC50 data.
 - Supplemental_Table_9_Design of drug resistance MIP panel.xlsx: contains details on probe design for drug resistance MIP panel
+- fig4ac.csv and fig4bd.csv: contain data used to generate figure 4. These tables were derived from the RSA_associations script.
 
 Code Files:
 - Fig1_Map.R: script used to generate "Figure 1: Map of Uganda". Requires extracted files in uga_admbnda_ubos_20200824_shp.zip and PRX-04_k13_data.csv
@@ -18,3 +19,4 @@ Code Files:
 - Tables1_all_IC50: script used to poulate Table 1 (Isolates with only IC50 results). Requires exvivo_all_wide.csv
 - RSA_associations.R and RSA_associations_step2.R: used for genotype-phenotype associations for RSA data and to generate dataframe to make Figure 4. Requires artR_genes_wide.csv data.
 - IC50_associations_step1.R and RSA_associations_step2.R: used for genotype-phenotype associations for IC50 data and to generate dataframe to make table 4. Requires data_IC50_associations.csv
+-Fig4.R: script to make Figure 4. Requires fig4ac.csv and fig4bd.csv.
