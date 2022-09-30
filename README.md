@@ -8,6 +8,7 @@ Data Files:
 - exvivo_all_wide.csv: contains data required to populate table 1 (Isolates with only IC50 results)
 - artR_genes_wide.csv: contains data required to generate Figure 4 and perform genotype-phenotype associations for RSA data.
 - data_IC50_associations.csv: contains data required to populate Table 4 and perform genotype-phenotype associations for IC50 data.
+- Supplemental_Table_9_Design of drug resistance MIP panel.xlsx: contains details on probe design for drug resistance MIP panel
 
 Code Files:
 - Fig1_Map.R: script used to generate "Figure 1: Map of Uganda". Requires extracted files in uga_admbnda_ubos_20200824_shp.zip and PRX-04_k13_data.csv
