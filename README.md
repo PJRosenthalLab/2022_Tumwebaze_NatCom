@@ -3,6 +3,7 @@ Data sets and R code associated with Tumwebaze and Conrad et al (2022) Nature Co
 
 Data Files:
 - uga_admbnda_ubos_20200824_shp.zip: Subset of Uganda administrative boundary shape files downloaded from Uganda Bureau of Statistics (adm2). Additional information about versions can be found in pdf contained in zip file. Used in generation of figure 1.
+- important_sites.csv: contains coordinates of important sites shown on map.
 - PRX-04_k13_data.csv: PfK13 C469Y and A675V genotype calls for 2019 samples. Genotype calls made from MIP and dideoxy sequencing data available through NCBI (PRJNA655702 and MT857288-MT857721[https://www.ncbi.nlm.nih.gov/nuccore/?term=MT857288:MT857721[pacc]]. Used in generation of figure 1.
 - exvivo_targetk13_MayAug21_wide.csv: contains data required to generate figures 2, 3, and 5, and Table 1 (Isolates with RSA and/or IC50 results), 2, and 3. 
 - exvivo_all_wide.csv: contains data required to populate table 1 (Isolates with only IC50 results)
